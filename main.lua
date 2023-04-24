@@ -50,7 +50,7 @@ function love.draw()
         love.graphics.print("Leftclick to cast fishing rod", 10, 10)
         love.graphics.print("Reel in when the ripple turns cyan", 10, 30)
     end
-    love.graphics.print(string.format("Fish catched: %d", points), w-120, 10)
+    love.graphics.print(string.format("Fish caught: %d", points), w-120, 10)
     love.graphics.setColor(1/5, 1/5, 1/5, 1/2)
     if cast then
         love.graphics.line(w/2, h, rod_x, rod_y)
